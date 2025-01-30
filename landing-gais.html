@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Recreation</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        color: white;
+      }
+
+      /* Header */
+      .header {
+        background-color: #1e293b;
+        padding: 20px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .header-logo {
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .header-links ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 20px;
+      }
+
+      .header-links a {
+        text-decoration: none;
+        color: white;
+      }
+
+      /* Hero Section */
+      .hero-section {
+        background-color: #1e293b;
+        padding: 100px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 50px;
+      }
+
+      .hero-text {
+        max-width: 500px;
+      }
+
+      .hero-title {
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+
+      .hero-subtitle {
+        color: #d1d5db;
+        margin-bottom: 30px;
+      }
+
+      .hero-button {
+        background-color: #3b82f6;
+        color: white;
+        border: none;
+        padding: 10px 30px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .hero-image-placeholder {
+        background-color: #4b5563;
+        width: 500px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #d1d5db;
+      }
+
+      /* Information Section */
+      .information-section {
+        background-color: white;
+        color: black;
+        padding: 50px;
+        text-align: center;
+      }
+
+      .information-title {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 50px;
+      }
+
+      .information-cards {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+      }
+
+      .info-card {
+        width: 200px;
+      }
+
+      .info-image-placeholder {
+        border: 2px solid #3b82f6;
+        height: 200px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+      }
+
+      .info-subtitle {
+        color: #6b7280;
+      }
+
+      /* Quote Section */
+      .quote-section {
+        background-color: #e5e7eb;
+        color: black;
+        padding: 100px;
+        text-align: center;
+      }
+
+      .quote-text {
+        font-size: 30px;
+        font-style: italic;
+        font-weight: lighter;
+        margin-bottom: 20px;
+      }
+
+      .quote-author {
+        text-align: right;
+        font-weight: bold;
+      }
+
+      /* Call to Action Section */
+      .cta-section {
+        background-color: #3b82f6;
+        padding: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .cta-text {
+        max-width: 600px;
+      }
+
+      .cta-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .cta-subtitle {
+        color: white;
+      }
+
+      .cta-button {
+        background-color: #3b82f6;
+        color: white;
+        border: 2px solid white;
+        padding: 10px 30px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      /* Footer */
+      .footer {
+        background-color: #1f2937;
+        color: #e5e7eb;
+        text-align: center;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo">Header Logo</div>
+      <div class="header-links">
+        <ul>
+          <li><a href="#">header link one</a></li>
+          <li><a href="#">header link two</a></li>
+          <li><a href="#">header link three</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="hero-section">
+      <div class="hero-text">
+        <h1 class="hero-title">This website is awesome</h1>
+        <p class="hero-subtitle">
+          This website has some subtext that goes here under the main title.
+          It's a smaller font and the color is lower contrast
+        </p>
+        <button class="hero-button">Sign up</button>
+      </div>
+      <div class="hero-image-placeholder">
+        this is a placeholder for an image
+      </div>
+    </div>
+
+    <div class="information-section">
+      <h2 class="information-title">Some random information.</h2>
+      <div class="information-cards">
+        <div class="info-card">
+          <div class="info-image-placeholder"></div>
+          <p class="info-subtitle">
+            this is some subtext under an illustration or image
+          </p>
+        </div>
+        <div class="info-card">
+          <div class="info-image-placeholder"></div>
+          <p class="info-subtitle">
+            this is some subtext under an illustration or image
+          </p>
+        </div>
+        <div class="info-card">
+          <div class="info-image-placeholder"></div>
+          <p class="info-subtitle">
+            this is some subtext under an illustration or image
+          </p>
+        </div>
+        <div class="info-card">
+          <div class="info-image-placeholder"></div>
+          <p class="info-subtitle">
+            this is some subtext under an illustration or image
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="quote-section">
+      <p class="quote-text">
+        This is an inspiring quote, or a testimonial from a customer. Maybe it's
+        just filling up space, or maybe people will actually read it. Who knows?
+        All I know is that it looks nice.
+      </p>
+      <p class="quote-author">-Thor, God of Thunder</p>
+    </div>
+
+    <div class="cta-section">
+      <div class="cta-text">
+        <h3 class="cta-title">Call to action! It's time!</h3>
+        <p class="cta-subtitle">
+          Sign up for our product by clicking that button right over there!
+        </p>
+      </div>
+      <button class="cta-button">Sign up</button>
+    </div>
+
+    <div class="footer">Copyright © The Odin Project 2021</div>
+  </body>
+</html>

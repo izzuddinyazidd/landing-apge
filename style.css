@@ -1,22 +1,27 @@
 body {
-  font-family: "Roboto";
-  margin-left: auto;
-  margin-right: auto;
+  font-family: "Roboto" sans-serif;
+  /* margin-left: auto; */
+  margin: 0;
+  /* margin-right: auto; */
+  /* background-color: #1f2937; */
 }
 
-.header {
-  background-color: #1f2937;
+/* HEADER SECTION */
+.header-section {
   color: white;
+  background-color: #1f2937;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
   flex: 1;
+  padding: 20px 50px;
 }
 
 .header-logo {
   font-size: 24px;
   color: #f9faf8;
+  font-weight: bold;
 }
 
 .header-links {
@@ -25,27 +30,27 @@ body {
 }
 
 /* HERO SECTION */
-.hero {
+.hero-section {
   background-color: #1f2937;
-  color: white;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 20px;
-  padding: 100px 0px;
+  padding: 100px 50px;
 }
 
 .hero-left {
-  font-size: 18px;
-  color: #e5e7eb;
   flex: 1;
 }
 
-.hero-text {
-  color: white;
+.hero-title {
   font-size: 48px;
-  font-weight: 900;
+  color: #e5e7eb;
+}
+
+.hero-nottitle {
+  color: white;
+  font-size: 18px;
 }
 
 .hero-button {
@@ -61,6 +66,7 @@ body {
 
 .hero-right {
   background-color: gray;
+  color: white;
   flex: 1;
   font-size: 14px;
   height: 200px;
@@ -70,30 +76,71 @@ body {
 }
 
 /* CONTENT SECTION */
-.content {
+.content-section {
   display: flex;
   flex-flow: column;
   align-items: center;
+  background-color: white;
+  padding: 50px 50px;
+}
+
+.content-title {
+  font: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  padding-bottom: 25px;
 }
 
 .features-container {
   display: flex;
   flex-flow: row;
-  gap: 20px;
+  gap: 30px;
 }
 
 .features {
   display: flex;
   flex-flow: column;
   justify-content: center;
+  width: 150px;
 }
+
 .content-image {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border: 2px solid #3882f6;
   border-radius: 5px;
 }
 
 .content-text {
-  width: 100px;
+  width: 150px;
+  text-align: center;
 }
+
+/* QUOTE SECTION */
+.quote-section {
+  padding: 25px 100px;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  /* display: flex;
+    flex-direction: column; */
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote-sign-off {
+  padding-right: 50px;
+  font-weight: bold;
+  text-align: end;
+}
+
+/* CTA SECTION */
+.cta-section {
+  padding: 25px 50px;
+  background-color: white;
+}
+
+/* TO DO LIST */

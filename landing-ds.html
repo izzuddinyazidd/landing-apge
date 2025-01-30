@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Header Styles */
+      header {
+        background-color: #1f2937;
+        padding: 20px 200px;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 100px;
+      }
+
+      .logo {
+        color: #f9faf8;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .nav-links a {
+        color: #e5e7eb;
+        text-decoration: none;
+        margin-left: 24px;
+        font-size: 18px;
+      }
+
+      /* Hero Section */
+      .hero {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        padding-bottom: 100px;
+      }
+
+      .hero-text {
+        flex: 1;
+      }
+
+      .hero-text h1 {
+        font-size: 48px;
+        font-weight: extra-bold;
+        color: #f9faf8;
+        margin-bottom: 10px;
+      }
+
+      .hero-text p {
+        color: #e5e7eb;
+        font-size: 18px;
+        margin-bottom: 15px;
+      }
+
+      .hero-image {
+        flex: 1;
+        background-color: #6d747d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+
+      button {
+        background-color: #3882f6;
+        color: white;
+        padding: 8px 32px;
+        border-radius: 8px;
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      /* Information Section */
+      .info-section {
+        padding: 50px 200px 100px;
+        text-align: center;
+      }
+
+      .info-section h2 {
+        font-size: 36px;
+        color: #1f2937;
+        margin-bottom: 50px;
+      }
+
+      .info-cards {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+      }
+
+      .card {
+        width: 150px;
+      }
+
+      .card-image {
+        height: 150px;
+        border: 4px solid #3882f6;
+        border-radius: 15px;
+        margin-bottom: 10px;
+      }
+
+      .card p {
+        color: #6d747d;
+      }
+
+      /* Quote Section */
+      .quote-section {
+        background-color: #e5e7eb;
+        padding: 100px 200px;
+      }
+
+      .quote-text {
+        font-size: 36px;
+        font-style: italic;
+        color: #1f2937;
+        margin-bottom: 20px;
+      }
+
+      .quote-author {
+        text-align: right;
+        font-weight: bold;
+        font-size: 24px;
+      }
+
+      /* CTA Section */
+      .cta-section {
+        padding: 100px 200px;
+      }
+
+      .cta-box {
+        background-color: #3882f6;
+        padding: 50px 100px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+      }
+
+      .cta-text h3 {
+        font-size: 24px;
+      }
+
+      /* Footer */
+      footer {
+        background-color: #1f2937;
+        color: white;
+        text-align: center;
+        padding: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Header Logo</div>
+        <div class="nav-links">
+          <a href="#">header link one</a>
+          <a href="#">header link two</a>
+          <a href="#">header link three</a>
+        </div>
+      </nav>
+      <div class="hero">
+        <div class="hero-text">
+          <h1>This website is awesome</h1>
+          <p>
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast
+          </p>
+          <button>Sign up</button>
+        </div>
+        <div class="hero-image">this is a placeholder for an image</div>
+      </div>
+    </header>
+
+    <div class="info-section">
+      <h2>Some random information.</h2>
+      <div class="info-cards">
+        <div class="card">
+          <div class="card-image"></div>
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="card">
+          <div class="card-image"></div>
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="card">
+          <div class="card-image"></div>
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="card">
+          <div class="card-image"></div>
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="quote-section">
+      <p class="quote-text">
+        This is an inspiring quote, or a testimonial from a customer. Maybe it's
+        just filling up space, or maybe people will actually read it. Who knows?
+        All I know is that it looks nice.
+      </p>
+      <p class="quote-author">- Thor, God of Thunder</p>
+    </div>
+
+    <div class="cta-section">
+      <div class="cta-box">
+        <div class="cta-text">
+          <h3>Call to action! It's time!</h3>
+          <p>
+            Sign up for our product by clicking that button right over there!
+          </p>
+        </div>
+        <button>Sign up</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>Copyright © The Odin Project 2021</p>
+    </footer>
+  </body>
+</html>
