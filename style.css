@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   /* margin-left: auto; */
   margin: 0;
   /* margin-right: auto; */
@@ -15,7 +15,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   flex: 1;
-  padding: 20px 50px;
+  padding: 10px 200px;
 }
 
 .header-logo {
@@ -36,7 +36,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  padding: 100px 50px;
+  padding: 100px 200px;
 }
 
 .hero-left {
@@ -81,11 +81,11 @@ body {
   flex-flow: column;
   align-items: center;
   background-color: white;
-  padding: 50px 50px;
+  padding: 25px 200px 100px;
 }
 
 .content-title {
-  font: 36px;
+  font-size: 36px;
   color: #1f2937;
   font-weight: 900;
   padding-bottom: 25px;
@@ -118,7 +118,7 @@ body {
 
 /* QUOTE SECTION */
 .quote-section {
-  padding: 25px 100px;
+  padding: 100px 250px;
   background-color: #e5e7eb;
   color: #1f2937;
   /* display: flex;
@@ -139,8 +139,38 @@ body {
 
 /* CTA SECTION */
 .cta-section {
-  padding: 25px 50px;
+  padding: 100px 200px;
   background-color: white;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  padding: 50px 100px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.cta-text h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cta-text p {
+  font-size: 16px;
+}
+
+.cta-box button {
+  color: white;
+  background-color: #3882f6;
+  border: 2px white solid;
+  border-radius: 5px;
+  padding: 10px 25px;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 /* TO DO LIST */
