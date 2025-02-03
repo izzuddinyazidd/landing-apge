@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      .list-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .list {
+        border: 1px solid #ccc;
+        margin: 10px;
+        padding: 10px;
+        width: 200px;
+      }
+      .list h2 {
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>To-Do Lists</h1>
+
+    <input type="text" id="listName" placeholder="List Name" />
+    <button onclick="createList()">Create List</button>
+
+    <div class="list-container" id="listsContainer"></div>
+  </body>
+</html>
