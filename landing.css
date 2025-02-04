@@ -6,6 +6,11 @@ body {
   /* background-color: #1f2937; */
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 /* HEADER SECTION */
 .header-section {
   color: white;
@@ -36,7 +41,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  padding: 100px 200px;
+  padding: 100px 100px;
 }
 
 .hero-left {
@@ -139,7 +144,7 @@ body {
 
 /* CTA SECTION */
 .cta-section {
-  padding: 100px 200px;
+  padding: 100px 100px;
   background-color: white;
 }
 
@@ -171,6 +176,11 @@ body {
   align-items: center;
   cursor: pointer;
   font-weight: bold;
+}
+
+.cta-box button:hover {
+  background-color: white;
+  color: #3882f6;
 }
 
 /* TO DO LIST */
